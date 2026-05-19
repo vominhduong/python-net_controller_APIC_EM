@@ -40,11 +40,11 @@ Mỗi tệp trong `network_controller` thường có các nhiệm vụ sau:
 
 1. Khởi động ứng dụng từ tệp điều khiển chính.
 2. Tải cấu hình mạng và thông tin phiên.
-3. Xác thực người dùng nếu cần.
+3. Xác thực người dùng.
 4. Thiết lập kết nối đến thiết bị hoặc dịch vụ mạng.
 5. Giám sát trạng thái và xử lý các sự kiện hoặc lỗi.
 
-## Hướng dẫn mở rộng
+## Hướng đang phát triển mở rộng
 
 - Thêm các tệp chức năng mới nếu cần quản lý thêm giao thức mạng.
 - Tách biệt logic giao tiếp mạng và logic nghiệp vụ để dễ bảo trì.

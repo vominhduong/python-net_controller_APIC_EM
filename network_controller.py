@@ -9,7 +9,6 @@ def get_ticket():
         "username":"admin",
         "password":"vnpro@123"
     }
-
     data=req.post(url=url,json=body,headers=headers,verify=False).json()
     return data["response"]["serviceTicket"]   
 def get_device():
